@@ -1,0 +1,16 @@
+import { Badge } from "@material-ui/core";
+import { ShoppingCartOutlined } from "@mui/icons-material";
+import { useContext, useEffect } from 'react';
+import { CartContext } from './CartContext';
+
+const CartWidget = () => {
+    const test = useContext(CartContext);
+
+    return (
+        <Badge badgeContent={test.calcItemsQty()} color="secondary">
+            <ShoppingCartOutlined />
+        </Badge>
+    );
+}
+
+export default CartWidget;
