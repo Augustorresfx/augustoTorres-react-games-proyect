@@ -1,17 +1,17 @@
 import { initializeApp } from "firebase/app";
-import { getFirestore } from "firebase/firestore"
+import { getFirestore } from "firebase/firestore";
 
+// Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyCa5amiJQxlUcDwMTwilDu90OTL_hk7cww",
-  authDomain: "react-games-24595.firebaseapp.com",
-  projectId: "react-games-24595",
-  storageBucket: "react-games-24595.appspot.com",
-  messagingSenderId: "851964920762",
-  appId: "1:851964920762:web:2e68d5e2e35bf366b51383"
+  apiKey: "AIzaSyB273_aXpEtNuCl3ywwhE6V42WYqgGx0os",
+  authDomain: "alta-vida-test1.firebaseapp.com",
+  projectId: "alta-vida-test1",
+  storageBucket: "alta-vida-test1.appspot.com",
+  messagingSenderId: "71918851531",
+  appId: "1:71918851531:web:b775647a9a856379a4924e"
 };
-
+// Initialize Firebase
 const app = initializeApp(firebaseConfig);
-
 const db = getFirestore(app);
 
 export default db;

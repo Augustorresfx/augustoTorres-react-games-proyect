@@ -1,6 +1,7 @@
 import styled from "styled-components";
 
 //NavBar
+
 const Wrapper = styled.div`
     padding: 10px 20px;
     display: flex;
@@ -9,6 +10,7 @@ const Wrapper = styled.div`
 `;
 
 const Left = styled.div`
+    font-style: 'Poppins', sans-serif;
     flex: 1;
     display: flex;
     align-items: center;
@@ -16,7 +18,6 @@ const Left = styled.div`
 
 const Center = styled.div`
     flex: 1;
-    display: flex;
     align-items: center;
     justify-content: center;
 `;
@@ -123,11 +124,12 @@ const Icon = styled.div`
 
 //ItemDetail
 const DetailContainer = styled.div`
+background-color: #fff4d8;
 
 `;
 
 const WrapperDetail = styled.div`
-    padding: 50px;
+    padding: 0px;
     display: flex;
 `;
 
@@ -144,7 +146,7 @@ const ImageDetail = styled.img`
 
 const InfoContainer = styled.div`
     flex: 1;
-    padding: 0px 50px;
+    padding: 0px 10px;
 `;
 
 const Title = styled.h1`
